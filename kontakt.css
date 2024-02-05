@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+.kontakt_transform {
+    bottom:0;
+    opacity: 1;
+    pointer-events: auto;
+    /* Dodaj inne właściwości stylów animacji, jeśli są potrzebne */
+}
+.ikonaX {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 4rem;
+    cursor: pointer;
+}
+section {
+    opacity: 0;
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    z-index: 13231233121233212312312332;
+    right:0% ;
+    bottom:0vh;
+    align-items: center;
+    transition: .2s linear;
+    justify-content: space-around;
+    color: white;
+    /* border-radius:  0px 0 0 20px; */
+    pointer-events: none;
+}
+.info {
+    font-size: 3rem;
+    transition: .2s linear;
+}
+.info:nth-child(2) {
+    margin-top: 1rem;
+}
+.logoKontakt {
+    height: 80%;
+    width: 10%;
+    /* margin-left: 7.5%; */
+    /* border: 2px solid red; */
+}
+.logoKontakt img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+section ion-icon {
+    font-size: 6rem;
+    /* border: 2px solid red; */
+    /* margin-left: 6rem; */
+    transition: .2s linear;
+}
+section a {
+    color: white;
+}
+.info:hover {
+    scale: 1.1;
+}
+section ion-icon:hover {
+scale: 1.1;
+}
+section a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1400px) and (max-width:1800px) {
+    html {
+        font-size: 14px;
+    }
+    section {
+        opacity: 0;
+        height: 20vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982438912332 !important;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}
+@media only screen and (min-width:1201px) and (max-width:1400px) {/* git */
+    html {
+        font-size: 12px;
+    }
+    section {
+        opacity: 0;
+        height: 20vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244813212323982438912332 !important;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}
+@media only screen and (min-width:1024px) and (max-width:1200px) { /* git */
+    html {
+        font-size: 9px;
+    }
+    section {
+        opacity: 0;
+        height: 20vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244123231823982438912332 !important;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+    
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /* git */
+    html {
+        font-size: 8px;
+    }
+    section {
+        opacity: 0;
+        height: 20vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982123123438912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+    section {
+        opacity: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982431212338912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}
+@media only screen and (max-width: 480px)  {
+    html {
+        font-size: 5px;
+    }
+    section {
+        opacity: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823981231232438912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+    .kontakt_transform {
+        bottom: 0 ; 
+        opacity: 1;
+        pointer-events: auto;
+        /* Dodaj inne właściwości stylów animacji, jeśli są potrzebne */
+    }
+    
+
+}
+@media only screen and (max-width: 400px)  {
+    html {
+        font-size: 4px;
+    }
+    section {
+        opacity: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982438912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}
+@media only screen and (max-width: 350px)  {
+    html {
+        font-size: 3px;
+    }
+    section {
+        opacity: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982438912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}
+
+@media only screen and (max-width: 278px)  {
+    html {
+        font-size: 2px;
+    }
+    section {
+        opacity: 0;
+        height: 15vh;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        display: flex;
+        z-index: 13233244823982438912332;
+        right:0% ;
+        bottom:0vh;
+        align-items: center;
+        transition: .2s linear;
+        color: white;
+        /* border-radius:  0px 0 0 20px; */
+        pointer-events: none;
+    }
+
+}

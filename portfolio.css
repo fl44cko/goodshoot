@@ -1,0 +1,544 @@
+main {
+    /* background-color: blue; */
+    max-width: 85%;
+    overflow: hidden;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 15%;
+}
+main div img {
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid red; */
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+main div {
+    position: relative;
+    transition: .2s linear;
+    overflow: hidden;
+}
+main div:hover {
+    /* scale: 1.1; */
+}
+
+
+
+main div:nth-child(1) {
+    width: 46%;
+}
+main div:nth-child(2) {
+    width: 27%;;
+}
+main div:nth-child(3) {
+    width: 27%;
+}
+
+
+
+
+
+
+main div:nth-child(4) {
+    width: 33.33333%;
+}
+main div:nth-child(5) {
+    width: 33.33333%;
+}
+main div:nth-child(6) {
+    width: 33.33333%;
+}
+
+
+
+
+
+main div:nth-child(7) {
+    width: 65%;
+}
+main div:nth-child(8) {
+    width: 35%;
+}
+
+
+
+
+
+main div:nth-child(9) {
+    width: 37.5%;
+    /* height: 50%; */
+}
+main div:nth-child(10) {
+    width: 62.5%;
+    /* height: 50%; */
+}
+
+
+
+
+
+main div:nth-child(11) {
+    width: 55%;
+}
+main div:nth-child(12) {
+    width: 45%;
+}
+
+
+
+main div:nth-child(13) {
+    width: 27.5%;
+}
+main div:nth-child(14) {
+    width: 45%;
+
+}
+
+main div:nth-child(15) {
+    width: 27.5%;
+}
+
+
+
+
+main div:nth-child(16) {
+    width: 50%;
+}
+main div:nth-child(17) {
+    width: 50%;
+}
+
+
+
+
+
+main div:nth-child(18) {
+    width: 58%;
+}
+main div:nth-child(19) {
+    width: 42%;
+}
+
+
+
+
+
+main div:nth-child(20) {
+    width: 33.333333%;
+}
+main div:nth-child(21) {
+    width: 33.333333%;
+}
+main div:nth-child(22) {
+    width: 33.333333%;
+}
+
+
+
+
+
+main div:nth-child(23) {
+    width: 36%;
+}
+main div:nth-child(24) {
+    width: 64%;
+}
+
+/* main div:nth-child(24) img {
+  transform: translateX(-5%);
+} */
+
+
+main div:nth-child(25) {
+    width: 27.5%;
+}
+main div:nth-child(26) {
+    width: 45%;
+}
+main div:nth-child(27) {
+    width: 27.5%;
+}
+
+
+
+main div:nth-child(28) {
+    width: 45%;
+}
+main div:nth-child(29) {
+    width: 55%;
+}
+
+
+
+
+
+main div:nth-child(30) {
+    width:25%;
+}
+main div:nth-child(31) {
+    width: 27.5%;
+}
+main div:nth-child(32) {
+    width: 47.5%;
+}
+
+
+
+main div:nth-child(33) {
+    width: 25%;
+}
+main div:nth-child(34) {
+    width: 30%;
+}
+main div:nth-child(35) {
+    width: 45%;
+}
+
+
+
+main div:nth-child(36) {
+    width: 47.5%;
+}
+main div:nth-child(37) {
+    width: 23%;
+}
+
+main div:nth-child(38) {
+    width: 29.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main div img {
+    transition: .4s linear;
+}
+main div:hover img {
+    filter: grayscale(80%) blur(2px);
+}
+
+main div:hover p.description {
+    opacity: 1;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.description {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.4rem;
+    /* word-wrap:inherit; */
+    color: white;
+    z-index: 99;
+    /* font-family: sans-serif; */
+    font-family: 'Almarai', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+    transition: .2s linear;
+    width: 80%;
+    text-align: center;
+    /* position: relative; */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+@media only screen and (min-width:1400px) and (max-width:1800px) {
+    html {
+        font-size: 14px;
+    }
+
+
+}
+@media only screen and (min-width:1201px) and (max-width:1400px) {/* git */
+    html {
+        font-size: 12px;
+    }
+
+
+    main div:nth-child(1) {
+        width: 50%;
+    }
+    main div:nth-child(2) {
+        width: 50%;;
+    }
+    main div:nth-child(3) {
+        width: 60%;
+    }
+    
+    
+    
+    
+    
+    
+    main div:nth-child(4) {
+        width:40%;
+    }
+    main div:nth-child(5) {
+        width: 50%;
+    }
+    main div:nth-child(6) {
+        width: 50%;
+    }
+    
+    
+    main div:nth-child(32) {
+        width: 50%;
+    }
+    main div:nth-child(33) {
+        width: 50%;
+    }
+    main div:nth-child(34) {
+        width: 50%;
+    }
+    
+    
+    
+    
+    
+    
+    main div:nth-child(35) {
+        width: 50%;
+    }
+    
+    main div:nth-child(36) {
+        width: 50%;
+    }
+    main div:nth-child(37) {
+        width: 50%;
+    }
+    
+    
+    
+    
+    
+
+}
+@media only screen and (min-width:1024px) and (max-width:1200px) { /* git */
+    html {
+        font-size: 9px;
+        
+    }
+    /* main */
+
+    
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /* git */
+    html {
+        font-size: 8px;
+    }
+
+    
+main div:nth-child(1) {
+    width: 50%;
+}
+main div:nth-child(2) {
+    width: 50%;;
+}
+main div:nth-child(3) {
+    width: 60%;
+}
+
+
+
+
+
+
+main div:nth-child(4) {
+    width:40%;
+}
+main div:nth-child(5) {
+    width: 50%;
+}
+main div:nth-child(6) {
+    width: 50%;
+}
+
+
+main div:nth-child(32) {
+    width: 50%;
+}
+main div:nth-child(33) {
+    width: 50%;
+}
+main div:nth-child(34) {
+    width: 50%;
+}
+
+
+
+
+
+
+main div:nth-child(35) {
+    width: 50%;
+}
+
+main div:nth-child(36) {
+    width: 50%;
+}
+main div:nth-child(37) {
+    width: 50%;
+}
+
+
+
+main {
+    /* background-color: blue; */
+    max-width: 100%;
+    overflow: hidden;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    margin-left: 0%;
+}
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+    main div {
+        width: 50% !important;
+    }
+    
+main {
+    /* background-color: blue; */
+    max-width: 100%;
+    overflow: hidden;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    margin-left: 0%;
+}
+
+.big {
+    width: 100% !important;
+}
+
+
+
+}
+@media only screen and (max-width: 480px)  {
+    html {
+        font-size: 5px;
+    }
+
+    main div {
+        width: 50% !important;
+    }
+    
+    
+    main {
+        /* background-color: blue; */
+        max-width: 100%;
+        overflow: hidden;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+        margin-left: 0%;
+    }
+    .big {
+        width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 400px)  {
+    html {
+        font-size: 4px;
+    }
+
+    main div {
+        width: 50% !important;
+    }
+    main {
+        /* background-color: blue; */
+        max-width: 100%;
+        overflow: hidden;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+        margin-left: 0%;
+    }
+    .big {
+        width: 100% !important;
+    }
+
+}
+@media only screen and (max-width: 350px)  {
+    html {
+        font-size: 3px;
+    }
+
+
+    main div {
+        width: 100% !important;
+    }
+    main {
+        /* background-color: blue; */
+        max-width: 100%;
+        overflow: hidden;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 15vh;
+        margin-left: 0%;
+    }
+    
+}
+
+@media only screen and (max-width: 278px)  {
+    html {
+        font-size: 2px;
+    }
+
+
+    
+    main div {
+        width: 100% !important;
+    }
+    
+    
+    main {
+        /* background-color: blue; */
+        max-width: 100%;
+        overflow: hidden;
+        /* height: 100vh; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20vh;
+        margin-left: 0%;
+    }
+    
+}

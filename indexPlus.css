@@ -1,0 +1,351 @@
+
+main {
+    width: 85%; 
+    height: 100vh;
+    margin-left: 15%;
+    /* border : 3px solid black; */
+}
+.swiper-wrapper {
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    /* border : 3px solid black; */
+}
+.swiper-slide{
+    height: 100%;
+    /* border: 2px solid red; */
+    width: 100%;
+    position: relative;
+    /* overflow: hidden; */
+    /* border : 3px solid black; */
+}
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* border : 3px solid black; */
+}
+.siema {
+    animation: chujec 10s linear infinite;
+}
+.socials .phone {
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: .2s linear;
+    cursor: pointer;
+}
+@keyframes chujec {
+    100% {
+        transform: translate(3%,3%);
+        scale: 1.10;
+    }
+    
+}
+.siema2 {
+    animation: chujec2 10s linear infinite;
+}
+@keyframes chujec2 {
+    100% {
+        transform: translate(-3%,-3%);
+        scale: 1.10;
+    }
+    
+}
+
+
+.words a {
+    text-decoration: none;
+    color: white;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: black;
+    transition: .2s linear;
+    padding: 30px;
+}
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    scale: 1.5;
+    /* color: rgb(70, 69, 69); */
+}
+.words {
+    font-size: 6rem;
+    z-index: 1213;
+    position: absolute;
+    left: 32.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+
+}
+.words .p2 {
+    font-size: 2rem;
+    color:white;
+    /* margin-left: 1rem; */
+    margin-top: 2rem;
+    transition: .2s linear;
+}
+.p2:hover {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+
+.words.siema2137 {
+    animation: wordsAnimate 1s ease-in-out;
+}
+
+@keyframes wordsAnimate {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1400px) and (max-width:1800px) {
+    html {
+        font-size: 14px;
+    }
+    .words {
+        font-size: 6rem;
+        z-index: 1213;
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+
+    }
+
+}
+@media only screen and (min-width:1201px) and (max-width:1400px) {/* git */
+    html {
+        font-size: 12px;
+    }
+    .words {
+        font-size: 6rem;
+        z-index: 1213;
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+
+    }
+
+
+
+
+}
+@media only screen and (min-width:1024px) and (max-width:1200px) { /* git */
+    html {
+        font-size: 9px;
+    }
+
+
+
+    .socials .phone {
+        /* margin-left: 2.5rem; */
+        
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        /* margin-right: 2rem; */
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /* git */
+    html {
+        font-size: 8px;
+    }
+    
+    .words {
+        font-size: 6rem;
+        z-index: 1213;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+
+    }
+    main {
+        width: 100%;
+        margin-left: 0%;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+    .words {
+        font-size: 4rem;
+        z-index: 1213;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+
+    }
+    main {
+        width: 100%; 
+        /* height: 100vh; */
+        margin-top:15vh;
+        height: 85vh;
+        overflow: hidden;
+        /* border : 3px solid black; */
+    }
+
+}
+@media only screen and (min-width: 401px) and (max-width: 480px)   {
+    html {
+        font-size: 6px;
+    }
+
+main {
+    width: 100%;
+    margin-left: 0%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.words {
+    font-size: 7rem;
+    z-index: 1213;
+    position: absolute;
+    left: 32.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+
+}
+.words .p2 {
+    font-size: 2rem;
+    color:white;
+    /* margin-left: 1rem; */
+    margin-top: 2rem;
+    transition: .2s linear;
+}
+
+}
+@media only screen and (max-width: 400px)  {
+    html {
+        font-size: 4px;
+    }
+    .words {
+        font-size: 6rem;
+        z-index: 1213;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+
+    }
+    main {
+        width: 100%;
+        margin-left: 0%;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+
+main {
+    max-height: 100vh
+};
+}
+
+@media only screen and (max-width: 350px)  {
+    html {
+        font-size: 3px;
+    }
+        .words {
+
+    /* right: 20%; */
+    top: 20%;
+    left: 70%;
+
+
+
+}
+.words {
+
+/* right: 20%; */
+top: 20%;
+left: 70%;
+
+}
+main {
+    width: 100%;
+    margin-left: 0%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+}
+
+@media only screen and (max-width: 278px)  {
+    html {
+        font-size: 2px;
+    }
+    .words {
+        font-size: 6rem;
+        z-index: 1213;
+        position: absolute;
+        left: 32.5%;
+        top: 60%;
+        /* transform: translate(-50%, -50%); */
+        display: flex;
+        flex-direction: column;
+        font-weight: normal;
+    
+    }
+    .words .p2 {
+        font-size: 2rem;
+        color:white;
+        /* margin-left: 1rem; */
+        margin-top: 2rem;
+        transition: .2s linear;
+    }
+    main {
+        width: 100%;
+        margin-left: 0%;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+
+}

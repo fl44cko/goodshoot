@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+body {
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    /* height: 300vh; */
+}
+html {
+    font-size: 16px;
+}
+aside {
+    height: 100vh;
+    width:15%;
+    z-index: 11327812378912378123789;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* font-family: sans-serif; */
+    /* font-family: 'Almarai', sans-serif; */
+    position: fixed;
+    /* border: 2px solid blue; */
+    /* border-bottom: 1px solid rgb(147, 145, 145); */
+}
+aside .logo {
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    /* height: 8rem; */
+        /* border: 2px solid red; */
+}
+aside .logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+aside ol {
+    /* border: 2px solid red; */
+    width: 100%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    color: rgb(70, 69, 69);
+}
+aside li {
+    /* border: 5px solid blue; */
+    list-style-type: none;
+    margin-top: .5rem;
+    transition: .2s linear;
+    cursor: pointer;
+    /* text-align: left !important; */
+}
+aside li:hover {
+    margin-left: 1rem;
+}
+hr {
+    width: 70%;
+    background-color: rgb(138, 137, 137);
+    /* color: rgb(70, 69, 69); */
+    border: none;
+    height: 2px;
+    margin-top: 3rem;
+}
+.socials {
+    /* border: 2px solid pink; */
+    width: 80%;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    /* margin: 0 auto; */
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.socials ion-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .2s linear;
+    margin-left: 3.5rem;   
+}
+.socials ion-icon:hover {
+    scale: 1.2;
+}
+.socials .phone {
+    margin-left: 1rem;
+    font-size: 1rem;
+    transition: .2s linear;
+    cursor: pointer;
+    /* border: 1px solid pink; */
+}
+.socials .phone:hover {
+    scale: 1.1;
+}
+aside a {
+    text-decoration: none;
+    color:rgb(70, 69, 69) ;
+}
+
+@media only screen and (min-width:1800px) and (max-width:2200px) {
+
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 0rem;  
+
+    }
+    .elo {
+        width: 100%;
+        display: flex;
+
+        margin-left: 30%;
+    }
+    
+    
+
+
+
+    .socials .phone {
+        margin-left: 2.5rem;
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (min-width:1800px) and (max-width:2000px) { 
+
+    html {
+        font-size: 15px;
+    }
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 0rem;  
+
+    }
+    .elo {
+        width: 100%;
+        display: flex;
+
+        margin-left: 30%;
+    }
+    
+    
+
+
+
+    .socials .phone {
+        margin-left: 2.5rem;
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+} 
+
+
+
+@media only screen and (min-width:1400px) and (max-width:1800px) {
+    html {
+        font-size: 14px;
+    }
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+        /* justify-self: center; */
+        /* border: 1px solid green; */
+        cursor: pointer;
+        transition: .2s linear;
+        /* border: 2px solid black; */
+        margin-right: 2rem;
+
+    }
+    
+
+
+
+    .socials .phone {
+        /* margin-left: 2.5rem; */
+        
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        /* margin-right: 2rem; */
+    }
+}
+@media only screen and (min-width:1201px) and (max-width:1400px) {/* git */
+    html {
+        font-size: 12px;
+    }
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+        /* justify-self: center; */
+        /* border: 1px solid green; */
+        cursor: pointer;
+        transition: .2s linear;
+        /* border: 2px solid black; */
+        margin-right: 2rem;
+
+    }
+    
+
+
+
+    .socials .phone {
+        /* margin-left: 2.5rem; */
+        
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        /* margin-right: 2rem; */
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1200px) { /* git */
+    html {
+        font-size: 9px;
+    }
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+        /* justify-self: center; */
+        /* border: 1px solid green; */
+        cursor: pointer;
+        transition: .2s linear;
+        /* border: 2px solid black; */
+        margin-right: 2rem;
+
+    }
+    
+
+
+    .socials .phone {
+        /* margin-left: 2.5rem; */
+        
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        /* margin-right: 2rem; */
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /* git */
+    html {
+        font-size: 8px;
+    }
+    aside ol {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        color: rgb(70, 69, 69);
+    }
+    aside {
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 5px solid blue; */
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        position: fixed;
+        border-bottom: 1px solid rgb(147, 145, 145);
+        top: 0;
+    }
+
+    aside .logo {
+        width: 40%;
+        margin-top: 0rem;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    aside .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .socials {
+        /* border: 2px solid pink; */
+        width: 80%;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .socials ion-icon {
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 2rem;   
+        margin-bottom: 2rem;
+    }
+    .socials ion-icon:hover {
+        scale: 1.2;
+    }
+    .socials .phone {
+        margin-left: 1rem;
+        font-size: 2rem;
+        transition: .2s linear;
+        cursor: pointer;
+    }
+    hr {
+        border: none;
+        height: 0px;
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    html {
+        font-size: 6px;
+    }
+    aside ol {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        color: rgb(70, 69, 69);
+        /* border-bottom: 1px solid rgb(147, 145, 145); */
+    }
+    aside {
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 5px solid blue; */
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        position: fixed;
+        border-bottom: 1px solid rgb(147, 145, 145);
+        top: 0;
+    }
+
+    aside .logo {
+        width: 50%;
+        margin-top: 0rem;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    aside .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .socials {
+        /* border: 2px solid pink; */
+        width: 80%;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .socials ion-icon {
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 2rem;   
+        margin-bottom: 2rem;
+    }
+    .socials ion-icon:hover {
+        scale: 1.2;
+    }
+    hr {
+        border: none;
+        height: 0px;
+        margin-top: 3rem;
+    }
+    .socials .phone {
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        transition: .2s linear;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 480px)  {
+    html {
+        font-size: 6px;
+    }
+
+    
+    aside ol {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 2rem;
+        margin-top: 2rem;
+        color: rgb(70, 69, 69);
+    }
+    aside {
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 1px solid rgb(147, 145, 145);
+        align-items: center;
+        /* border: 5px solid blue; */
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        position: fixed;
+        top: 0;
+    }
+hr {
+    border: none;
+    height: 0px;
+    margin-top: 3rem;
+}
+    aside .logo {
+        width: 40%;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    aside .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .socials {
+        /* border: 2px solid pink; */
+        width: 80%;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .socials ion-icon {
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 2rem;   
+        margin-bottom: 2rem;
+    }
+    .socials ion-icon:hover {
+        scale: 1.2;
+    }
+    .socials .phone {
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        transition: .2s linear;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 400px)  {
+    html {
+        font-size: 4px;
+    }
+    aside ol {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 2.2rem;
+        margin-top: 2rem;
+        color: rgb(70, 69, 69);
+    }
+    aside {
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        border-bottom: 1px solid rgb(147, 145, 145);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 5px solid blue; */
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        position: fixed;
+        top: 0;
+    }
+
+    aside .logo {
+        width: 70%;
+        margin-top: 0rem;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    aside .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .socials {
+        /* border: 2px solid pink; */
+        width: 80%;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .socials ion-icon {
+        font-size: 4rem;
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 2rem;   
+        margin-bottom: 2rem;
+    }
+    .socials ion-icon:hover {
+        scale: 1.2;
+    }
+    .socials .phone {
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        transition: .2s linear;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 350px)  {
+    html {
+        font-size: 3px;
+    }
+    aside ol {
+        /* border: 2px solid red; */
+        width: 100%;
+        margin-left:5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: space-between; */
+        font-size: 3.5rem;
+        margin-top: 2rem;
+        color: rgb(70, 69, 69);
+    }
+    aside {
+        height: 15vh;
+        width:100%;
+        background-color: white;
+        border-bottom: 1px solid rgb(147, 145, 145);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        /* border: 5px solid blue; */
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        position: fixed;
+        top: 0;
+    }
+
+    aside .logo {
+        width: 70%;
+        margin-top: 0rem;
+        margin-left: auto;
+        margin-bottom: 0;
+        margin-right: auto;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    aside .logo img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .socials {
+        /* border: 2px solid pink; */
+        width: 80%;
+        display: flex;
+        /* justify-content: space-around; */
+        align-items: center;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .socials ion-icon {
+        font-size: 6rem;
+        cursor: pointer;
+        transition: .2s linear;
+        margin-left: 2rem;   
+        margin-bottom: 3rem;
+    }
+    .socials ion-icon:hover {
+        scale: 1.2;
+    }
+    .socials .phone {
+        margin-left: 1rem;
+        font-size: 2.4rem;
+        transition: .2s linear;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 278px)  {
+    html {
+        font-size: 2px;
+    }
+    .socials {
+        width: 90%;
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+        
+    }
+    .socials ion-icon {
+        font-size: 2rem;
+        /* justify-self: center; */
+        /* border: 1px solid green; */
+        cursor: pointer;
+        transition: .2s linear;
+        /* border: 2px solid black; */
+        margin-right: 2rem;
+
+    }
+    
+    aside {
+        height: 20vh;
+        width:100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        /* font-family: sans-serif; */
+        /* font-family: 'Almarai', sans-serif; */
+        top: 0;
+        position: fixed;
+        border-bottom: 1px solid rgb(147, 145, 145);
+    }
+
+    aside .logo {
+        width: 80%;
+        margin:5rem 0 0 5rem;
+        /* height: 8rem; */
+            /* border: 2px solid red; */
+    }
+    .socials .phone {
+        /* margin-left: 2.5rem; */
+        
+        font-size: 1rem;
+        transition: .2s linear;
+        cursor: pointer;
+        /* margin-right: 2rem; */
+    }
+}
